@@ -21,6 +21,7 @@ export const loader = async ({
     return json({ contact });
   };
 
+// kametest
 export default function Contact(){
     const { contact } = useLoaderData<typeof loader>();
     // const contact = {
